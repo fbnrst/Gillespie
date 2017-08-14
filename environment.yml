@@ -1,0 +1,163 @@
+name: py3
+channels:
+- conda-forge
+- defaults
+dependencies:
+- jupyter_contrib_core=0.3.0=py35_0
+- jupyter_contrib_nbextensions=0.2.1=py35_0
+- jupyter_nbextensions_configurator=0.2.2=py35_0
+- _nb_ext_conf=0.3.0=py35_0
+- accelerate=2.3.1=np111py35_0
+- accelerate_cudalib=2.0=0
+- anaconda-client=1.6.3=py35_0
+- bleach=1.5.0=py35_0
+- bokeh=0.12.4=py35_0
+- cffi=1.9.1=py35_0
+- chest=0.2.3=py35_0
+- cloudpickle=0.2.2=py35_0
+- clyent=1.2.2=py35_0
+- cudatoolkit=7.5=0
+- cycler=0.10.0=py35_0
+- cython=0.25.2=py35_0
+- dask=0.14.1=py35_0
+- dbus=1.10.10=0
+- decorator=4.0.11=py35_0
+- entrypoints=0.2.2=py35_1
+- expat=2.1.0=0
+- fontconfig=2.12.1=3
+- freetype=2.5.5=2
+- glib=2.50.2=1
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=0
+- hdf5=1.8.17=1
+- heapdict=1.0.0=py35_1
+- html5lib=0.999=py35_0
+- icu=54.1=0
+- ipykernel=4.6.1=py35_0
+- ipython=6.0.0=py35_0
+- ipython_genutils=0.2.0=py35_0
+- ipywidgets=6.0.0=py35_0
+- jinja2=2.9.6=py35_0
+- jpeg=9b=0
+- jsonschema=2.6.0=py35_0
+- jupyter=1.0.0=py35_3
+- jupyter_client=5.0.1=py35_0
+- jupyter_console=5.1.0=py35_0
+- jupyter_core=4.3.0=py35_0
+- libffi=3.2.1=1
+- libgcc=5.2.0=0
+- libgfortran=3.0.0=1
+- libgpuarray=0.6.4=0
+- libiconv=1.14=0
+- libpng=1.6.27=0
+- libsodium=1.0.10=0
+- libxcb=1.12=1
+- libxml2=2.9.4=0
+- line_profiler=2.0=py35_0
+- llvm=3.3=0
+- llvmlite=0.15.0=py35_0
+- locket=0.2.0=py35_1
+- mako=1.0.6=py35_0
+- markupsafe=0.23=py35_2
+- matplotlib=2.0.0=np111py35_0
+- mesa=10.5.4=0
+- mistune=0.7.4=py35_0
+- mkl=11.3.3=0
+- mkl-service=1.1.2=py35_3
+- mpmath=0.19=py35_1
+- nb_anacondacloud=1.2.0=py35_0
+- nb_conda=2.0.0=py35_0
+- nb_conda_kernels=2.0.0=py35_0
+- nbconvert=5.1.1=py35_0
+- nbformat=4.3.0=py35_0
+- nbpresent=3.0.2=py35_0
+- nose=1.3.7=py35_1
+- notebook=5.0.0=py35_0
+- numba=0.30.1=np111py35_0
+- numexpr=2.6.1=np111py35_1
+- numpy=1.11.2=py35_0
+- openssl=1.0.2k=1
+- pandas=0.19.2=np111py35_1
+- pandocfilters=1.4.1=py35_0
+- partd=0.3.7=py35_0
+- path.py=10.3.1=py35_0
+- patsy=0.4.1=py35_0
+- pcre=8.39=1
+- pexpect=4.2.1=py35_0
+- pickleshare=0.7.4=py35_0
+- pip=9.0.1=py35_1
+- prompt_toolkit=1.0.14=py35_0
+- psutil=5.2.2=py35_0
+- ptyprocess=0.5.1=py35_0
+- pycparser=2.17=py35_0
+- pygments=2.2.0=py35_0
+- pygpu=0.6.4=py35_0
+- pyparsing=2.1.4=py35_0
+- pyqt=5.6.0=py35_2
+- pytables=3.3.0=np111py35_0
+- python=3.5.2=0
+- python-dateutil=2.6.0=py35_0
+- pytz=2017.2=py35_0
+- pyyaml=3.12=py35_0
+- pyzmq=16.0.2=py35_0
+- qt=5.6.2=3
+- qtconsole=4.3.0=py35_0
+- readline=6.2=2
+- requests=2.13.0=py35_0
+- scipy=0.18.1=np111py35_0
+- seaborn=0.7.1=py35_0
+- setuptools=27.2.0=py35_0
+- simplegeneric=0.8.1=py35_1
+- sip=4.18=py35_0
+- six=1.10.0=py35_0
+- snakeviz=0.4.1=py35_0
+- sqlite=3.13.0=0
+- statsmodels=0.8.0=np111py35_0
+- sympy=1.0=py35_0
+- system=5.8=2
+- terminado=0.6=py35_0
+- testpath=0.3=py35_0
+- theano=0.9.0=py35_0
+- tk=8.5.18=0
+- toolz=0.8.2=py35_0
+- tornado=4.5.1=py35_0
+- traitlets=4.3.2=py35_0
+- wcwidth=0.1.7=py35_0
+- wget=2.2=py35_0
+- wheel=0.29.0=py35_0
+- widgetsnbextension=2.0.0=py35_0
+- xlrd=1.0.0=py35_0
+- xz=5.2.2=1
+- yaml=0.1.6=0
+- zeromq=4.1.5=0
+- zlib=1.2.8=3
+- pip:
+  - alabaster==0.7.10
+  - algopy==0.5.3
+  - babel==2.4.0
+  - bibtexparser==0.6.2
+  - commonmark==0.5.4
+  - docutils==0.13.1
+  - h5py==2.7.0
+  - imagesize==0.7.1
+  - iminuit==1.2
+  - ipycache==0.1.5.dev0
+  - ipython-genutils==0.2.0
+  - joblib==0.11
+  - jupyter-core==4.3.0
+  - line-profiler==2.0
+  - nb-anacondacloud==1.2.0
+  - nb-conda==2.0.0
+  - nb-conda-kernels==2.0.0
+  - nbsphinx==0.2.13
+  - numdifftools==0.9.20
+  - numpydoc==0.6.0
+  - peakutils==1.0.3
+  - prompt-toolkit==1.0.14
+  - pymc3==3.1rc3
+  - recommonmark==0.4.0
+  - snowballstemmer==1.2.1
+  - sphinx==1.5.5
+  - tables==3.3.0
+  - tqdm==4.10.0
+  - yapf==0.16.1
